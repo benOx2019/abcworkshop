@@ -8,7 +8,7 @@ import { VideoPlayerComponent } from './video-player/video-player.component';
 import { StatFiltersComponent } from './stat-filters/stat-filters.component';
 
 const dashboardRoutes: Routes = [
-  { path: '', component: VideoDashboardComponent, pathMatch: 'full' }
+  { path: '', component: VideoDashboardComponent }
 ];
 
 @NgModule({
